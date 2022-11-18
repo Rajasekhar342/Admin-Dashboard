@@ -3,13 +3,75 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 .header {
-  background-color: aqua;
+  background-color: #fff;
   grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+}
+.search-icon {
+  margin-right: 0.5rem;
+  width: 35px;
+  color: black;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.7rem;
+}
+.top-left {
+  position: relative;
+}
+.top-left input {
+  padding: 0.9rem;
+  display: block;
+  width: 80%;
+  background-color: lightgray;
+  border-style: none;
+  border-radius: 15px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.top-right-element {
+  margin-right: 1.5rem;
+}
+.profile {
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.bottom-left-element {
+  margin-right: 1rem;
+}
+.name p {
+  font-size: 18px;
+}
+.name h2 {
+  font-size: 30px;
+}
+.bottom-right,
+.top-right {
+  justify-content: end;
+}
+.bottom-right button {
+  margin-right: 1.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border-style: none;
 }
 .sidebar {
   grid-column: 1/2;

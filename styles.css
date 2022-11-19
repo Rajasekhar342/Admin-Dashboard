@@ -81,6 +81,7 @@ button {
 .bottom-right,
 .top-right {
   justify-content: end;
+  width: 500px;
 }
 .bottom-right button {
   margin-right: 1.5rem;
@@ -155,7 +156,7 @@ button {
 }
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5rem;
 }
 .projects h2,
@@ -263,6 +264,6 @@ input:active {
   cursor: pointer;
 }
 .announcements {
-  min-width: 300px;
+  min-width: 250px;
   max-width: 500px;
 }

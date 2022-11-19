@@ -11,17 +11,21 @@
     <div class="container">
       <header class="header">
         <div class="top-left flex">
-          <img src="search_icon.svg" alt="search-icon" class="search-icon" />
+          <img
+            src="icons/search_icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
           <input type="search" />
         </div>
         <div class="top-right flex">
           <img
-            src="notifications_active.svg"
+            src="icons/notifications_active.svg"
             alt="notification-icon"
             class="top-right-element"
           />
           <img
-            src="profile_dog.jpg"
+            src="icons/profile_dog.jpg"
             alt="dog"
             width="4032"
             height="3024"
@@ -31,7 +35,7 @@
         </div>
         <div class="bottom-left flex">
           <img
-            src="profile_dog.jpg"
+            src="icons/profile_dog.jpg"
             alt="dog"
             width="4032"
             height="3024"
@@ -39,7 +43,7 @@
           />
           <div class="name bottom-left-element">
             <p>Hi,There.</p>
-            <h2>Rajasekhar Bevara(@Raja)</h2>
+            <h2 class="nowrap">Rajasekhar Bevara(@Raja)</h2>
           </div>
         </div>
         <div class="bottom-right flex">
@@ -48,7 +52,53 @@
           <button>Share</button>
         </div>
       </header>
-      <sidebar class="sidebar"> <h2>sidebar</h2></sidebar>
+      <sidebar class="sidebar">
+        <div class="sidebar__heading flex-sidebar">
+          <img src="icons/view-dashboard.png" alt="dashboard-icon" />
+          <h2>Dashboard</h2>
+        </div>
+        <div class="sidebar__navigation">
+          <div class="home flex-sidebar">
+            <img src="icons/home.png" alt="home-icon" />
+            <p>Home</p>
+          </div>
+          <div class="profile_page flex-sidebar">
+            <img src="icons/face-man-profile.png" alt="profile-icon" />
+            <p>Profile</p>
+          </div>
+          <div class="messages flex-sidebar">
+            <img src="icons/message-settings.png" alt="messages-icon" />
+            <p>Messages</p>
+          </div>
+
+          <div class="history flex-sidebar">
+            <img src="icons/history.png" alt="history-icon" />
+            <p>History</p>
+          </div>
+          <div class="tasks flex-sidebar">
+            <img src="icons/calendar-check.png" alt="tasks-icon" />
+            <p>Tasks</p>
+          </div>
+          <div class="communities flex-sidebar">
+            <img src="icons/communities.png" alt="communities-icon" />
+            <p>Communities</p>
+          </div>
+        </div>
+        <div class="sidebar__settings">
+          <div class="settings flex-sidebar">
+            <img src="icons/settings.png" alt="settings-icon" />
+            <p>Settings</p>
+          </div>
+          <div class="support flex-sidebar">
+            <img src="icons/support.png" alt="support-icon" />
+            <p>Support</p>
+          </div>
+          <div class="privacy flex-sidebar">
+            <img src="icons/privacy.png" alt="privacy-icon" />
+            <p>privacy</p>
+          </div>
+        </div>
+      </sidebar>
       <main class="main">
         <div class="projects">
           <h2>Your Projects</h2>
